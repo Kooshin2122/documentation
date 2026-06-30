@@ -33,14 +33,11 @@
       {
         "dropdown": "Technical",
         "icon": "seal",
-        "description": "Forex Technical Lessons",
+        "description": "Cashirada Technical-ka",
         "pages": [
           {
             "group": "Getting Started",
-            "pages": [
-              "index",
-              "quickstart"
-            ]
+            "pages": ["index", "baahiyaha", "quickstart"]
           }
         ]
       },
@@ -51,9 +48,7 @@
         "groups": [
           {
             "group": "Get Start",
-            "pages": [
-              "introduction"
-            ]
+            "pages": ["introduction"]
           }
         ]
       }
@@ -77,10 +72,7 @@
     }
   },
   "contextual": {
-    "options": [
-      "chatgpt",
-      "claude"
-    ],
+    "options": ["chatgpt", "claude"],
     "display": "header"
   },
   "footer": {
