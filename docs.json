@@ -77,7 +77,11 @@
     }
   },
   "contextual": {
-    "options": ["chatgpt", "claude"]
+    "options": [
+      "chatgpt",
+      "claude"
+    ],
+    "display": "toc"
   },
   "footer": {
     "socials": {
