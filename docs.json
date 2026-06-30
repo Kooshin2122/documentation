@@ -28,7 +28,36 @@
           "icon": "newspaper"
         }
       ]
-    }
+    },
+    "dropdowns": [
+      {
+        "dropdown": "Technical",
+        "icon": "seal",
+        "description": "Forex Technical Lessons",
+        "pages": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "index",
+              "quickstart"
+            ]
+          }
+        ]
+      },
+      {
+        "dropdown": "Foundamental",
+        "icon": "book-open",
+        "description": "Forex Foundamental Lessons",
+        "groups": [
+          {
+            "group": "Get Start",
+            "pages": [
+              "introduction"
+            ]
+          }
+        ]
+      }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
