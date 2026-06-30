@@ -81,7 +81,7 @@
       "chatgpt",
       "claude"
     ],
-    "display": "toc"
+    "display": "header"
   },
   "footer": {
     "socials": {
