@@ -67,6 +67,18 @@
       {
         "label": "Support",
         "href": "mailto:hi@mintlify.com"
+      },
+      {
+        "href": "https://test-2b7ae613.mintlify.site/about",
+        "label": "About"
+      },
+      {
+        "href": "https://openrouter.ai/models",
+        "label": "Models"
+      },
+      {
+        "href": "https://openrouter.ai/models",
+        "label": "Help"
       }
     ],
     "primary": {
