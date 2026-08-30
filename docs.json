@@ -29,26 +29,30 @@
         }
       ]
     },
-    "dropdowns": [
+    "tabs": [
       {
-        "dropdown": "Technical",
+        "tab": "Technical",
         "icon": "seal",
-        "description": "Cashirada Technical-ka",
         "pages": [
           {
             "group": "Getting Started",
-            "pages": ["index", "baahiyaha", "quickstart"]
+            "pages": [
+              "index",
+              "baahiyaha",
+              "quickstart"
+            ]
           }
         ]
       },
       {
-        "dropdown": "Foundamental",
+        "tab": "Foundamental",
         "icon": "book-open",
-        "description": "Forex Foundamental Lessons",
         "groups": [
           {
             "group": "Get Start",
-            "pages": ["introduction"]
+            "pages": [
+              "introduction"
+            ]
           }
         ]
       }
