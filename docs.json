@@ -29,13 +29,13 @@
         }
       ]
     },
-    "anchors": [
+    "dropdowns": [
       {
-        "anchor": "Technical",
+        "dropdown": "Technical",
         "icon": "seal",
-        "dropdowns": [
+        "groups": [
           {
-            "dropdown": "Getting Started",
+            "group": "Getting Started",
             "pages": [
               "index",
               "baahiyaha",
@@ -43,7 +43,7 @@
             ]
           },
           {
-            "dropdown": "Lessons",
+            "group": "Lessons",
             "pages": [
               "untitled-page"
             ]
@@ -51,7 +51,7 @@
         ]
       },
       {
-        "anchor": "Foundamental",
+        "dropdown": "Foundamental",
         "icon": "book-open",
         "groups": [
           {
