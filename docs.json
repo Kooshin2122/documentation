@@ -29,9 +29,9 @@
         }
       ]
     },
-    "tabs": [
+    "anchors": [
       {
-        "tab": "Technical",
+        "anchor": "Technical",
         "icon": "seal",
         "dropdowns": [
           {
@@ -41,16 +41,24 @@
               "baahiyaha",
               "quickstart"
             ]
+          },
+          {
+            "dropdown": "Lessons",
+            "pages": [
+              "untitled-page"
+            ]
           }
         ]
       },
       {
-        "tab": "Foundamental",
+        "anchor": "Foundamental",
         "icon": "book-open",
         "groups": [
           {
             "group": "Get Start",
-            "pages": ["introduction"]
+            "pages": [
+              "introduction"
+            ]
           }
         ]
       }
