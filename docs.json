@@ -33,10 +33,14 @@
       {
         "tab": "Technical",
         "icon": "seal",
-        "pages": [
+        "dropdowns": [
           {
-            "group": "Getting Started",
-            "pages": ["index", "baahiyaha", "quickstart"]
+            "dropdown": "Getting Started",
+            "pages": [
+              "index",
+              "baahiyaha",
+              "quickstart"
+            ]
           }
         ]
       },
