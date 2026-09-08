@@ -36,11 +36,7 @@
         "pages": [
           {
             "group": "Getting Started",
-            "pages": [
-              "index",
-              "baahiyaha",
-              "quickstart"
-            ]
+            "pages": ["index", "baahiyaha", "quickstart"]
           }
         ]
       },
@@ -50,9 +46,7 @@
         "groups": [
           {
             "group": "Get Start",
-            "pages": [
-              "introduction"
-            ]
+            "pages": ["introduction"]
           }
         ]
       }
@@ -80,12 +74,7 @@
         "href": "https://openrouter.ai/models",
         "label": "Help"
       }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://app.mintlify.com"
-    }
+    ]
   },
   "contextual": {
     "options": ["chatgpt", "claude"],
