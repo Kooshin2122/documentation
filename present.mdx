@@ -1,0 +1,135 @@
+---
+title: "Present tense"
+description: "A demo English lesson: simple present, new words, and a conversation."
+icon: "comments"
+iconType: "light"
+---
+
+import { Conversation } from "/snippets/conversation.jsx"
+import { Vocabulary } from "/snippets/vocabulary.jsx"
+import { ReadLesson } from "/snippets/read-lesson.jsx"
+
+<ReadLesson
+  title="Read lesson"
+  description="Read this short text first. It helps you practise English reading before the grammar and conversation."
+  passageTitle="Amina's morning"
+  level="Beginner"
+  minutes={2}
+  paragraphs={[
+    {
+      en: "Amina lives in the city. Every morning she walks to a small cafe near her work.",
+      so: "Amina waxay ku nooshahay magaalada. Subax kasta waxay u socotaa cafe yar oo shaqadeeda u dhow.",
+    },
+    {
+      en: "She usually drinks coffee first. Then she works until five o'clock.",
+      so: "Intabadan marka hore ayay cabtaa kafee. Kadib way shaqeysaa ilaa shanta galabnimo.",
+    },
+    {
+      en: "Omar takes the bus because he lives far from the city. He works hard every day.",
+      so: "Omar wuxuu qaataa baska maxaa yeelay wuxuu ku nool yahay meel magaalada ka fog. Maalin kasta si adag ayuu u shaqeeyaa.",
+    },
+    {
+      en: "After work, Amina studies English. She wants to read better, so she reads a little every evening.",
+      so: "Shaqada kadib, Amina waxay barataa Ingiriis. Waxay doonaysaa inay si fiican u aqriso, sidaas darteed fiid kasta wax yar ayay akhrisaa.",
+    },
+    {
+      en: "They both learn something new. Reading every day helps them remember new words.",
+      so: "Labadooduba wax cusub ayay bartaan. Akhriska maalin kasta wuxuu ka caawiyaa inay xasuustaan erayada cusub.",
+    },
+  ]}
+/>
+
+This is a **demo English lesson**. You will learn the simple present, new everyday words, then practise them in a conversation.
+
+<Info>
+  Green words in the dialogue are present-tense verbs. Tap **Next line** to listen with your eyes, one sentence at a time.
+</Info>
+
+## What is the present tense?
+
+We use the **simple present** for habits, facts, and things that are true now.
+
+| Subject | Verb | Example |
+| --- | --- | --- |
+| I / You / We / They | base form | I **work** from home. |
+| He / She / It | verb + **s** | She **works** from home. |
+
+<Tip>
+  Use **do / does** in questions: **Do** you walk to work? **Does** she drink tea?
+</Tip>
+
+## New words
+
+Tap a card to see the Somali meaning and an example sentence.
+
+<Vocabulary
+  words={[
+    { word: "usually", type: "adverb", so: "intabadan / caadi ahaan", example: "I usually walk to work." },
+    { word: "every day", type: "phrase", so: "maalin kasta", example: "She studies English every day." },
+    { word: "work", type: "verb", so: "in la shaqeeyo", example: "They work in Mogadishu." },
+    { word: "drink", type: "verb", so: "in la cabo", example: "I drink coffee in the morning." },
+    { word: "live", type: "verb", so: "in la noolaado", example: "We live near the market." },
+    { word: "walk", type: "verb", so: "in la socdo", example: "Do you walk to school?" },
+    { word: "take", type: "verb", so: "in la qaato", example: "He takes the bus." },
+    { word: "study", type: "verb", so: "in la barto", example: "Amina studies English." },
+  ]}
+/>
+
+## Conversation
+
+Amina and Omar meet at a cafe. They talk about their daily routine.
+
+<Conversation
+  title="At the cafe"
+  scene="Amina and Omar talk about a normal weekday."
+  messages={[
+    {
+      speaker: "Amina",
+      text: "Good morning, Omar. I usually walk here every day.",
+      so: "Subax wanaagsan, Omar. Intabadan halkan ayaan u soo socdaa maalin kasta.",
+      highlights: ["walk"],
+    },
+    {
+      speaker: "Omar",
+      text: "Hi, Amina. I take the bus because I live far from the city.",
+      so: "Waa salaaman tahay, Amina. Baska ayaan qaataa maxaa yeelay waxaan ku noolahay meel fog.",
+      highlights: ["take", "live"],
+    },
+    {
+      speaker: "Amina",
+      text: "I drink coffee first. Then I work until 5 o'clock.",
+      so: "Marka hore ayaan cabbaa kafee. Kadib waan shaqeeyaa ilaa 5-ta.",
+      highlights: ["drink", "work"],
+    },
+    {
+      speaker: "Omar",
+      text: "She studies English after work. Do you study too?",
+      so: "Shaqada kadib ayay barataa Ingiriis. Adiguna ma barataa?",
+      highlights: ["studies", "study"],
+    },
+    {
+      speaker: "Amina",
+      text: "Yes. I study every evening. English helps me at work.",
+      so: "Haa. Fiid kasta ayaan barto. Ingiriisku wuxuu iga caawiyaa shaqada.",
+      highlights: ["study", "helps"],
+    },
+    {
+      speaker: "Omar",
+      text: "Nice. We both work hard, and we both learn something new.",
+      so: "Wanaagsan. Labadeenuba si adag ayaan u shaqeynaa, wax cusubna waan baranna.",
+      highlights: ["work", "learn"],
+    },
+  ]}
+/>
+
+## Try it
+
+Change the sentences so they are true for you.
+
+- I usually ______ every morning.
+- I live in ______.
+- I work / study at ______.
+
+<Note>
+  Remember: **he / she / it** takes **-s** — she **walks**, he **takes**, it **helps**.
+</Note>
